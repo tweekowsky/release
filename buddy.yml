@@ -12,6 +12,8 @@
     trigger_condition: "ALWAYS"
   - action: "Make GitHub Release"
     type: "GIT_HUB_RELEASE"
+    name: "test"
+    target_commitish: "master"
     source_path: "dupa.zip"
     trigger_condition: "ALWAYS"
     tag_name: "te333"
